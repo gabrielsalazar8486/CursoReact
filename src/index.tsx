@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Toggle from './Toggle'
+import Form from './Form';
 
 ReactDOM.render(
     <React.StrictMode>
-        <Toggle/>
+        <Form />
     </React.StrictMode>,
     document.getElementById('root')
 );
