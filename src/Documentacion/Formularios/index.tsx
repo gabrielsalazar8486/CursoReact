@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ButtonCount from './ButtonCount';
+import Form from './Form';
 
 ReactDOM.render(
     <React.StrictMode>
-        <ButtonCount />
+        <Form />
     </React.StrictMode>,
     document.getElementById('root')
 );
