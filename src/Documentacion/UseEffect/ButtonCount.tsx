@@ -5,7 +5,11 @@ const ButtonCount = ()=>{
 
     useEffect(()=>{
         document.title = `el contador actual es ${cont}`;
-    });
+
+        return ()=>{
+            document.title = `listo ${cont}`;
+        }
+    }, [cont]);
 
     return (
         <div>
